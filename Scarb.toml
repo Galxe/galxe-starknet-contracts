@@ -1,0 +1,23 @@
+[package]
+name = "galxenft"
+version = "0.1.0"
+
+[dependencies]
+starknet = ">=2.0.0"
+
+[lib]
+
+[[target.starknet-contract]]
+sierra = true
+casm = true
+allowed-libfuncs-list.name = "experimental"
+
+[tool.sncast.stg]
+account = "stg-deployer"
+network = "testnet"
+url = ""
+
+[tool.sncast.prd]
+account = "prd-deployer"
+network = "mainnet"
+url = ""
