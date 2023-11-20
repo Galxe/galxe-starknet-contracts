@@ -10,17 +10,12 @@ Dep:
 * [Starknet Foundry v0.10.2](https://foundry-rs.github.io/starknet-foundry/getting-started/installation.html)
 
 ```
-# build-testnet
+# build
 > scarb build
 
-# create deployer account
-> starkli account oz init ~/.starkli-wallets/deployer/account
-> starkli account deploy ~/.starkli-wallets/deployer/account
-
-
-# declare-testnet
+# declare
 > sncast declare --contract-name StarNFT
 
-# deploy-testnet
-> starkli deploy $CLASS_HASH $NAME $SYMBOL $BASE_URI $SIGNER_PUB_KEY
+# deploy
+> 
 ```
