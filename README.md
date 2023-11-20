@@ -11,11 +11,11 @@ Dep:
 
 ```
 # build
-> scarb build
+> make build
 
 # declare
-> sncast declare --contract-name StarNFT
+> make declare
 
 # deploy
-> 
+> make deploy
 ```
